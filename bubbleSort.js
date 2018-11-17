@@ -67,3 +67,23 @@ var unsortedArr = [
   292, 332, 209, 244, 196, 179, 472, 279, 40, 486, 270, 185,
   181, 485, 495, 81, 169, 294, 79, 400, 92, 104, 249
 ];
+
+//var sortedArr;
+
+var swap = false;
+
+
+function sort() {
+  for (var i = 0; i < unsortedArr.length; i++) {
+    var first = unsortedArr[i];
+    var second = unsortedArr[i + 1];
+
+    if (first > second) {
+      second = first;
+    }
+  }
+
+  /*for (var n = 1; n < unsortedArr.length; n++) {
+    console.log(n);
+  }*/
+}
